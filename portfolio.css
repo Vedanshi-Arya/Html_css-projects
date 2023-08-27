@@ -1,0 +1,126 @@
+
+
+.container{
+justify-content: center;
+align-items: center;
+height:800px;
+width:100%;
+position:relative;
+}
+
+h1{text-shadow: 3px;
+font-weight: 700px;}
+
+
+/* /* Background */
+
+.photo{height:750px;
+width:80%;
+background-color:rgba(138, 43, 226,0.3);
+border-radius:20px ;
+color:darkred;
+text-align: center;
+font-family: arial;
+position:absolute;
+left:10%;
+right:10%;
+padding-bottom:13px;
+margin-left:10px;
+}
+.photo h2{font-style:bold;
+    padding-right:5px;}
+
+.photo h3{line-height: 1.2px;}
+
+
+
+/*  box1*/
+
+.about{
+background-color:rgba(103, 3, 47,0.5);
+color:white ;
+border-radius: 20px;
+box-shadow: 2px 2px 2px 2px grey;
+border:15px solid white;
+text-align: center;
+position:absolute;
+border-radius: 20px;
+left:68%;
+right:2px;
+top:5%;
+height:300px;
+width:30%;
+}
+.about h2{padding-right:5px;}
+
+/*  box 2 */
+
+.details{background-color: rgba(76, 1, 33,0.5);
+    color:white ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    text-align: center;
+    border:15px solid white;
+    height:350px;
+   width:30%; 
+position: absolute;
+right:68%;
+left:2%;
+top:5%;
+border-radius: 20px;
+}
+.details p{
+    line-height: 0.9px;
+transition-timing-function: ease-in-out;}
+
+/* box3 */
+
+.contact{background-color: rgba(76, 1, 33,0.5);
+    color:white ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    text-align: center;
+    height:300px;
+    position: absolute;
+    border:15px solid white;
+    right:68%;
+    left:2%;
+    top:500px;
+   width:25%; 
+   border-radius: 20px;
+}
+.contact a{display:flex;
+    align-items:start;
+    justify-content: center;
+text-decoration: none;
+color:white;
+padding-left:5px;}
+
+
+/* box4 */
+
+.experience{background-color: rgba(99, 4, 54,0.5);
+    color:white ;
+    border-radius: 20px;
+    border:15px solid white;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px grey;
+    height:400px;
+   width:30%; 
+   position:absolute;
+   top:400px;
+   left:68%;
+   right:2%}
+
+
+
+   /* hovering effect */
+.experience:hover{
+    background-color: rgb(99, 4, 54);
+}
+.about:hover{background-color: rgb(99, 4, 54);}
+.contact:hover{background-color: rgb(99, 4, 54);}
+.details:hover{background-color: rgb(99, 4, 54);}
+
+.photo h3:hover{text-decoration: underline;
+font-size: 1.5rem;}
